@@ -1,0 +1,204 @@
+[Root]
+Most Recent Package=Web2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Web
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MACROMED\Shockwave 8\Control.dll=
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\Desktop\web-browser=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=Yes
+C:\WINDOWS\SYSTEM\MACROMED\Shockwave 8\Control.dll=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\comctl32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\web-browser=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\SWFLASH.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\Shockwave 8\Control.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\web-browser=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Internet_Browser
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Internet_Browser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Internet_Browser]
+Icon1=web-browser
+Title1=Internet_Browser
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\Web
+ProjectFolder=C:\WINDOWS\Desktop\Web Browser
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Web\setup.exe
+File2=C:\WINDOWS\Desktop\Web\Setup.Lst
+File3=C:\WINDOWS\Desktop\Web\web-browser.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Web2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\1
+
+[Package|Web2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Web2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Web2|Files Found]
+
+[Package|Web2|Files Released]
+
+[Package|Web2|Missing Dependency Information]
+
+[Package|Web2|Out-of-Date Dependency Information]
+
+[Package|Web2|Files Added]
+
+[Package|Web2|Files Removed]
+
+[Package|Web2|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\comctl32.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\web-browser.exe=Yes
+
+[Package|Web2|Configure Registry Files]
+Applicable=No
+
+[Package|Web2|Configure Remote Servers]
+Applicable=No
+
+[Package|Web2|Install Locations]
+C:\WINDOWS\Desktop\WebBrowser\web-browser.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\comctl32.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\Web Browser\web-browser.exe=$(AppPath)
+C:\WINDOWS\Desktop\web-browser.exe=$(AppPath)
+
+[Package|Web2|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\WebBrowser\web-browser.exe=No
+C:\WINDOWS\Desktop\Web Browser\web-browser.exe=No
+C:\WINDOWS\Desktop\web-browser.exe=No
+
+[Package|Web2|Distribution]
+Type=single
+Size=
+Title=Internet_Browser
+
+[Package|Web2|Package]
+PackageFolder=C:\WINDOWS\Desktop\1
+ProjectFolder=C:\WINDOWS\Desktop\Web Browser
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\1\setup.exe
+File2=C:\WINDOWS\Desktop\1\Setup.Lst
+File3=C:\WINDOWS\Desktop\1\web-browser.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Web2|IconGroups]
+Group0=Internet_Browser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Web2|Internet_Browser]
+Icon1=web-browser.exe
+Title1=Internet_Browser
+StartIn1=$(AppPath)
+Key1=Icon1
