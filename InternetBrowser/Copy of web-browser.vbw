@@ -1,0 +1,11 @@
+frmMain = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmAbout = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+ini = 0, 0, 0, 0, C
+fav = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmRem = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmDate = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmOptions = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+srnsave = 0, 0, 0, 0, C
+ModuleMultimedia = 0, 0, 0, 0, C
+FrmSelectFile = 0, 0, 0, 0, C, 0, 0, 0, 0, C
+frmMainMediaPlayer = 0, 0, 0, 0, C, 0, 0, 0, 0, C
